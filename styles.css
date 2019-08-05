@@ -1,0 +1,187 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 30px;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.nav-heart {
+    margin: 0 0 0 5px;
+}
+
+.nav-top-right {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.nav-top-right li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-top-left {
+    display: inline-block;
+}
+
+.header {
+    height: 400px;
+    color: white;
+    background-color: rgb(32, 101, 136);
+    background-image: url("file:///Users/gabrielnessim/Dropbox/Ironhack/Module%200/Assignments/npm/lab-html-module-exercise-master/starter-code/images/city-scape.svg");
+}
+
+.npm-logo {
+    padding: 10px;
+    height: 40px;
+}
+
+.bear {
+    height: 30px;
+    background-color: none;
+}
+
+.header-logo-search {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo-search a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo-search li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 20px 0 0;
+    font-size:12px;
+}
+
+.header-main {
+    color: white;
+    margin: 0 auto;
+    width: 850px;
+}
+
+.search-bar {
+    height: 30px;
+    padding: 5px;
+    width: 1050px;
+    background-color: rgb(31, 82, 111);
+}
+
+.signup-npm-button {
+    background-color: rgb(240, 146, 51);
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+}
+
+.header-description {
+    width: 500px;
+}
+
+#orgs {
+    height: 400px;
+    background-color: rgb(39, 53, 71);
+    color: white;
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.orgs-div {
+    padding: 0;
+    margin: auto;
+    display: inline-block;
+    float: right;
+}
+
+.orgs-image {
+    height: 210px;
+}
+
+.signup-orgs-button {
+    background-color: rgb(203, 56, 55);
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+}
+
+.learn-more a {
+    color: white;
+    text-decoration: none;
+}
+
+#about {
+    height: 400px;
+    background-image: url("file:///Users/gabrielnessim/Dropbox/Ironhack/Module%200/Assignments/npm/lab-html-module-exercise-master/starter-code/images/forklift.svg");
+    background-size: cover;
+    color: white;
+}
+
+.install-npm-button {
+    background-color: rgb(49, 68, 88);
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 30px;
+}
+
+#howto {
+    background-color: white;
+    height: 400px;
+}
+
+.howto-title {
+    color: rgb(83, 88, 98);
+    text-align: center;
+}
+
+.howto-content {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+
+.howto-links {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+.howto-content {
+    display: flex;
+    justify-content: space-evenly;
+}
